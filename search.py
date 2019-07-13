@@ -36,14 +36,14 @@ def getMinimumIndex(signal):
             minIndex = i
     return minIndex
 
-def getMaximumIndex(signal):
-    maxVal = 0
-    maxIndex = 0
-    for i in range(len(signal)):
-        if signal[i] > maxVal:
-            maxVal = signal[i]
-            maxIndex = i
-    return maxIndex
+# def getMaximumIndex(signal):
+#     maxVal = 0
+#     maxIndex = 0
+#     for i in range(len(signal)):
+#         if signal[i] > maxVal:
+#             maxVal = signal[i]
+#             maxIndex = i
+#     return maxIndex
 
 results = []
 for index in range(1, 5):
